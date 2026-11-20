@@ -1,0 +1,14 @@
+# Data
+*.csv
+*.zip
+
+# Outputs
+submission.csv
+
+# Environments
+venv/
+.venv/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
