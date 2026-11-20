@@ -158,3 +158,12 @@ The output file `submission.csv` is created in the project folder. Upload it on 
 **beshara997**
 
 > **خطوة خطوة وهتوصل. الأهم إنك تفهم اللي بتعمله، مش بس تشغّل الكود!** 🔥
+# Changes
+## Experiments
+
+Seed = 42, 10 epochs, batch size 128, validation_split = 0.2
+
+| # | Change | val_acc (last) | val_loss (last) | Notes |
+|---|--------|----------------|-----------------|-------|
+| 0 | Baseline (with /255) | 0.9819 | 0.0610 | first epoch: val_acc 0.9538 |
+| 1 | Remove normalization | 0.9820 | 0.0818 | slower first epoch, same accuracy, worse val_loss |
